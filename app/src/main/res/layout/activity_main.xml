@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/party_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/rose" />
+
+    <TextView
+        android:id="@+id/birthday_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:padding="@dimen/birthdayMessagePadding"
+        android:text="@string/birthdayMessage"
+        android:textColor="@color/birthdayMessageColor"
+        android:textSize="@dimen/birthdayMessageTxtSize" />
+
+    <TextView
+        android:id="@+id/birthday_to_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/birthday_to"
+        android:layout_marginLeft="@dimen/personsNameSideMargins"
+        android:layout_marginStart="@dimen/personsNameSideMargins"
+        android:layout_marginTop="@dimen/personsNameTopMargin"
+        android:fontFamily="cursive"
+        android:padding="@dimen/personsNamePadding"
+        android:rotation="-45"
+        android:text="@string/personsName"
+        android:textColor="@color/personsNameColor"
+        android:textSize="@dimen/personsNameTxtSize" />
+
+    <TextView
+        android:id="@+id/birthday_from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:fontFamily="cursive"
+        android:padding="@dimen/fromMessagePadding"
+        android:text="@string/fromMessage"
+        android:textColor="@color/fromMessageColor"
+        android:textSize="@dimen/fromMessageTxtSize" />
+
+</RelativeLayout>
+

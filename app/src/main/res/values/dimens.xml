@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="birthdayMessagePadding">12dp</dimen>
+    <dimen name="birthdayMessageTxtSize">36sp</dimen>
+    <dimen name="personsNamePadding">8dp</dimen>
+    <dimen name="personsNameSideMargins">8dp</dimen>
+    <dimen name="personsNameTopMargin">40dp</dimen>
+    <dimen name="personsNameTxtSize">45sp</dimen>
+    <dimen name="fromMessagePadding">2dp</dimen>
+    <dimen name="fromMessageTxtSize">32sp</dimen>
+</resources>
